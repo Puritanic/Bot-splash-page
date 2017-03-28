@@ -8889,6 +8889,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
    body {
     display: block;
     position: relative;
+    overflow-x: hidden;
    }
 
   body p {
@@ -8896,7 +8897,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: block;
     line-height: 1.3em;
    }
-
+   small {
+    font-size: 18px;  
+   }
    /* =========================================
       MAIN HEADER
    ============================================ */
@@ -8966,7 +8969,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color: black;
     color: #fff;
     position: relative;
-    margin-left: 75px;
+    margin-left: 18px;
+    top: 35px;
    }
    .htmled {
     margin-bottom: 5px;
@@ -8998,4 +9002,57 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     padding-bottom: 2em;
     padding-top: 2em;
     padding-left: 390px;
+   }
+   .bot-img-alt {
+    display: block;
+    position: relative;
+    bottom: 63px;
+   }
+   .border {
+    border-left: 5px solid #e65100;
+    width: 400px;
+    height: 320px;
+    margin-left: 53px;
+    position: relative;
+    top:-60px;
+    border-radius: 2px;
+   }
+   .text-block {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+
+   }
+   .chuck-block {
+    display: inline-block;
+    position: relative;
+    right: 150px;
+   }
+    .text-block-2 {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    line-height: 22px;
+   }
+   .bot-lastp {
+    display: block;
+    position: relative;
+    border-left: 5px solid #e65100;
+    border-radius: 2px;
+    left: 55px;
+    bottom: 105px;
+   }
+    .text-block-3 {
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    right: 140px;
+    line-height: 22px;
+    font-size: 17px;
+   }
+    .chuck-block-2 {
+    display: inline-block;
+    position: relative;
+    right: 130px;
+    top: 35px;
    }
