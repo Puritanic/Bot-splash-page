@@ -8888,8 +8888,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
    body {
     display: block;
+    position: relative;
    }
 
+  body p {
+    font-size: 100%;
+    display: block;
+    line-height: 1.3em;
+   }
 
    /* =========================================
       MAIN HEADER
@@ -8911,7 +8917,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-repeat: no-repeat;
     background-color: #e65100;
     color: #FFF;
-    padding-bottom: 2em;
     margin-top: -5em;
     padding-top: 9em;
     background-position-x: -100px;
@@ -8923,20 +8928,49 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     font-size: 60px;
     font-weight: 500;
     font-family: 'PT Sans Caption', sans-serif;
-    padding-bottom: .2em;
+    margin-bottom: -10px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.1), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
    }
 
-   p {
-    font-size: 19px;
-    line-height: 1.5em;
-    margin-top: .2em;
-   }
+   
 
    #headline, p {
     position: relative;
     top: -33px;
     padding-left: 150px;
-    padding-bottom: .2em;
     text-align: left;
+   }
 
+   /* =========================================
+      BUTTONS
+   ============================================ */
+
+  .button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+
+   /* =========================================
+      HTMLISE
+   ============================================ */
+
+
+   .htmlised {
+    height:280px;
+    width:468px;
+    background-color: black;
+    color: #fff;
+    position: relative;
+   }
+   .Chuck {
+    position: absolute;
+    top:90px;
+    text-align: center;
+    left: -90px;
+    font-family: 'PT Serif', serif;
    }
