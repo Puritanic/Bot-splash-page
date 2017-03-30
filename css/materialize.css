@@ -8999,6 +8999,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     word-spacing: 7px;
    }
    .bot-img {
+    background-color: #ffffff;
     padding-bottom: 2em;
     padding-top: 2em;
     padding-left: 390px;
@@ -9056,3 +9057,41 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     right: 130px;
     top: 35px;
    }
+
+   /* =========================================
+      USAGE
+   ============================================ */
+
+    #usage {
+      background-image: url('https://lion-bot.herokuapp.com/img/lionbot-background.png');
+      background-position: right;
+      background-position-x: 120%;
+      background-repeat: no-repeat;
+
+      background-color: linear-gradient(to right, #f9f9f9, #fafafa);
+      height: 25%;
+    }
+
+    #usage h1 {
+      font-size: 45px;
+      font-weight: 500;
+      font-family: 'PT Sans Caption', sans-serif;
+      margin-bottom: 40px;
+    }
+
+    #usage h1, p {
+      position: relative;
+      padding-left: 150px;
+      text-align: left;
+    }
+
+    code {
+      font-size: 15px;
+      font-weight: bold;
+      background-color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #e6e6e6;
+      display: inline-block;
+      padding: 0px 3px 0px 3px;
+    }
