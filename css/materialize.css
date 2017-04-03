@@ -9534,6 +9534,7 @@ p {
     display: block;
     max-height: 85px;
     height: auto;
+    position: relative;
 }
 
 .lions .contain p {
@@ -9544,6 +9545,7 @@ p {
     display: inline-block;
     clear: none;
     vertical-align: middle;
+    position: relative;
 }
 
 .logo {
@@ -9558,4 +9560,23 @@ p {
 .logop {
     position: relative;
     top: -10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.inline-block a {
+    color: #FFB300;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.inline-block a:hover {
+  color: #FF6F00;
+  transition: color 0.5s ease;
+}
+
+.logo:hover {
+  opacity: .9;
+  transition: opacity 0.5s ease;
 }
